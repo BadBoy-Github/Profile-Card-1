@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg,#fbda61,#ff5acd);
+    background: linear-gradient(45deg,#000000,#5796d6);
 }
 
 .card {
@@ -81,9 +81,9 @@ body {
 
 
 .card .content .details h2 {
-    font-size: 1.25em;
-    font-weight: 600;
-    color: #555;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #5796d6;
     line-height: 1.2em;
 }
 
@@ -116,22 +116,28 @@ body {
 .card .content .details .actionBtn {
     display: flex;
     justify-content: space-around;
-    /* gap: 20px; */
 }
 
-.card .content .details .actionBtn button {
+.card .content .details .actionBtn a {
     padding: 10px 30px;
     border-radius: 5px;
     border: none;
     outline: none;
     font-size: 1em;
     font-weight: 500;
-    background: #ff5f95;
+    background: #71b7fb;
     color: #fff;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.card .content .details .actionBtn button:nth-child(2) {
+a:hover {
+    scale: 1.05;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card .content .details .actionBtn a:nth-child(2) {
     border: 1px solid #999;
     color: #999;
     background: #fff;
@@ -144,10 +150,4 @@ body {
     opacity: 0.8;
     position: relative;
     margin-bottom: -25px;
-} */
-
-/* .card:hover .content .details .creator {
-    bottom: 0px;
 }
-
-
