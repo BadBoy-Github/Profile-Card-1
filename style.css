@@ -17,7 +17,7 @@ body {
 
 .card {
     position: relative;
-    width: 350px;
+    width: 300px;
     height: 190px;
     background: #fff;
     border-radius: 20px;
@@ -27,6 +27,7 @@ body {
 
 .card:hover {
     height: 450px;
+    width: 400px;
 }
 
 .imgBx {
@@ -135,6 +136,7 @@ body {
     color: #999;
     background: #fff;
 }
+
 
 
 
