@@ -82,11 +82,16 @@ body {
 }
 
 .card .content .details h2 span {
-    font-size: 0.74em;
+    font-size: 0.75em;
     font-weight: 500;
     color: #555;
     opacity: 0.5;
 }
+
+.card .content .details .data {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
 }
 
 
