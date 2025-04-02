@@ -75,10 +75,10 @@ body {
     transition: 0.5s;
     transform: translateY(150px);
 }
-
 .card:hover .content .details {
     transform: translateY(0px);
 }
+
 
 .card .content .details h2 {
     font-size: 1.25em;
@@ -137,6 +137,17 @@ body {
     background: #fff;
 }
 
+.card .content .details .creator {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #999;
+    opacity: 0.8;
+    position: relative;
+    margin-bottom: -25px;
+} */
 
+/* .card:hover .content .details .creator {
+    bottom: 0px;
+}
 
 
